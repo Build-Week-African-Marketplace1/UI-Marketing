@@ -1,9 +1,12 @@
+html {
+  font-family: 'Poppins';
+}
 h1 {
   font-weight: bold;
   font-size: 48px;
   font-family: 'Poppins';
 }
-h2{
+h2 {
   font-weight: lighter;
   font-size: 36px;
   font-family: 'Poppins';
@@ -91,4 +94,81 @@ h2{
   background-color: white;
   border: solid 1px;
   border: red;
+}
+html {
+  height: 100%;
+  background-color: #191C48;
+}
+html body {
+  margin: 0;
+  height: 100%;
+}
+html body ._container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+html body ._container .mainsec1 {
+  width: 50%;
+  height: 100%;
+}
+html body ._container .mainsec1 h1 {
+  color: #FE7A7C;
+  width: 70%;
+  border-bottom: white 3px solid;
+  margin-left: 7%;
+  margin-bottom: 0;
+}
+html body ._container .mainsec1 h2 {
+  color: #FE7A7C;
+  margin-left: 7%;
+  width: 70%;
+  margin-top: 1%;
+}
+html body ._container .mainsec2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  height: auto;
+}
+html body ._container .mainsec2 #more-btn {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 342px;
+  height: 30px;
+  background-color: #7c718d;
+  align-self: flex-end;
+  margin-right: 20%;
+  border-radius: 10px;
+  width: 15%;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.maindivz {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #142051;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+}
+.maindivz button {
+  border-radius: 4px;
+  background-color: #191C48;
+  color: white;
+  width: 342px;
+  height: 30px;
+  border-radius: 10px;
+  width: 25%;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: bolder;
 }

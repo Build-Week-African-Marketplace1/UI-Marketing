@@ -1,0 +1,7 @@
+._container {
+  display: flex;
+  flex-direction: row;
+}
+.maindiv1 {
+  width: 50%;
+}
