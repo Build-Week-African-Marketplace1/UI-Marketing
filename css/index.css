@@ -123,6 +123,7 @@ h2 {
 @media (max-width: 800px) {
   .container .header .nav {
     margin: 5%;
+    background-color: red;
   }
 }
 @media (max-width: 500px) {
@@ -323,7 +324,7 @@ h2 {
 }
 html {
   height: 100%;
-  background-color: #191C48;
+  background-color: white;
 }
 html body {
   margin: 0;
