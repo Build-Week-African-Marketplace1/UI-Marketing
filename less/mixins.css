@@ -1,4 +1,7 @@
 .invisible {
   display: none;
 }
-
+.vert-container {
+  display: flex;
+  flex-direction: column;
+}

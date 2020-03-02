@@ -198,6 +198,133 @@ h2 {
   border: solid 1px;
   border-radius: 5px;
 }
+#dash {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media (max-width: 800px) {
+  #dash {
+    height: auto;
+  }
+}
+a {
+  text-decoration: none;
+}
+#dashfoot {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #191C48;
+}
+#dashfoot .footernav {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#dashfoot .footernav a {
+  color: white;
+  font-family: 'Poppins';
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.top-content {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.top-content h1 {
+  width: 100%;
+  font-size: 3.7rem;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .top-content h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+}
+.mid-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  .mid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.mid-content .add-prod,
+.mid-content .market,
+.mid-content .listings,
+.mid-content .profile {
+  background-color: #191C48;
+  width: 45%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  border-radius: 5px;
+}
+@media (max-width: 800px) {
+  .mid-content .add-prod,
+  .mid-content .market,
+  .mid-content .listings,
+  .mid-content .profile {
+    width: 80%;
+    min-width: 400px;
+    max-width: 650px;
+    border-radius: 12px;
+  }
+}
+.mid-content .add-prod h5,
+.mid-content .market h5,
+.mid-content .listings h5,
+.mid-content .profile h5 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.mid-content .add-prod h5:hover,
+.mid-content .market h5:hover,
+.mid-content .listings h5:hover,
+.mid-content .profile h5:hover {
+  color: red;
+}
+@media (max-width: 800px) {
+  .mid-content .add-prod h5,
+  .mid-content .market h5,
+  .mid-content .listings h5,
+  .mid-content .profile h5 {
+    font-size: 1.5rem;
+  }
+}
+.mid-content .add-prod p,
+.mid-content .market p,
+.mid-content .listings p,
+.mid-content .profile p {
+  color: white;
+}
+.mid-content .add-prod img,
+.mid-content .market img,
+.mid-content .listings img,
+.mid-content .profile img {
+  color: #191C48;
+}
 #home {
   display: flex;
   flex-direction: column;
@@ -223,7 +350,7 @@ h2 {
 }
 @media (max-width: 500px) {
   .container .header h2 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
 }
 .container .header .nav {
@@ -345,7 +472,7 @@ h2 {
   }
 }
 .container .Services .mobile .mobile-img img {
-  width: 55px;
+  width: 65px;
 }
 .container .Services .mobile h5 {
   font-family: 'Poppins';
@@ -525,30 +652,25 @@ h2 {
   }
 }
 footer {
-  display: none;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #191C48;
 }
-@media (max-width: 800px) {
-  footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #191C48;
-  }
-  footer .footernav {
-    width: 55%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  footer .footernav a {
-    color: white;
-    font-family: 'Poppins';
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bold;
-  }
+footer .footernav {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footernav a {
+  color: white;
+  font-family: 'Poppins';
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 html {
   height: 100%;
@@ -844,6 +966,21 @@ html body ._container .mainsec2 #more-btn {
 }
 .invisible {
   display: none;
+}
+.vert-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+@media (max-width: 800px) {
+  .vert-container {
+    height: auto;
+  }
+}
+@media (max-width: 800px) {
+  .horizontal {
+    width: 100%;
+  }
 }
 .container {
   width: 100%;

@@ -1,0 +1,106 @@
+#dash{
+    .vert-container();
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+#dashfoot{
+            position: sticky;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        background-color: @portgore;
+        .footernav{
+            width: 55%;
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                color: @white;
+                font-family: @Poppins;
+                text-decoration: none;
+                font-size: 1.3rem;
+                font-weight: bold;
+            
+            }
+    
+}
+
+}
+
+.top-content{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    h1{
+
+        width: 100%;
+        font-size: 3.7rem;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0;
+        @media @tablet {
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+
+    }
+    
+
+}
+
+.mid-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    @media @tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .add-prod, .market, .listings, .profile{
+        background-color: @portgore;
+        width: 45%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        border-radius: 5px;
+        @media @tablet{
+            width: 80%;
+            min-width: 400px;
+            max-width:650px;
+            border-radius: 12px;
+            
+        }
+        h5{
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            &:hover{
+                .hover-btn-lg
+            }
+            @media @tablet {
+                font-size: 1.5rem;
+            }
+        }
+        p{
+            color: @white;
+        }
+        img{
+           color: @portgore;
+        }
+    } 
+}
