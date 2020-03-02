@@ -81,21 +81,29 @@ h2 {
   background-color: #7c718d;
 }
 .box_shape {
+  padding: 2px 5px 2px 5px;
   background-color: white;
   border: solid 1px;
+  border-radius: 5px;
 }
 .label {
+  padding: 2px 5px 2px 5px;
   background-color: white;
   border: solid 1px;
+  border-radius: 5px;
   border: #191C48;
 }
 .success {
+  padding: 2px 5px 2px 5px;
   background-color: white;
   border: solid 1px;
+  border-radius: 5px;
   border: lightgreen;
 }
 .error {
+  padding: 2px 5px 2px 5px;
   background-color: white;
   border: solid 1px;
+  border-radius: 5px;
   border: red;
 }
