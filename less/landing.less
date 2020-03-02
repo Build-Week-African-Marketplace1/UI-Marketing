@@ -6,6 +6,7 @@
         display: flex;
         align-items: center;
         background-color: #142051;
+        width: 100%;
 
         h2 {
             font-family: 'Poppins',;
@@ -16,6 +17,10 @@
             width: 110px;
             height: 54px;
             margin: 0;
+            @media @phone{
+                font-size: 1.5rem;
+            }
+            
         
         } //h2
 
@@ -23,21 +28,22 @@
             display: flex;
             justify-content: space-between;
             width: 100%;
-            margin: 2% 1% 1% 3%;
+            margin: 2% 1% 0% 3%;
             @media @tablet{
-                margin: 2%;
+                margin-left: 2%;
+                width: 100%;
                 
 
             }
             @media @phone{
-                margin:- 2%;
+                
             }
             a {
                 padding: 20px;
                 color: #FFFFFF;
                 text-decoration: none;
                 font-family: 'Poppins',;
-                font-size: 18px;
+                font-size: .8rem;
                 font-weight: 300;
                 line-height: 27px;
             } // a
@@ -52,28 +58,39 @@
         width: 100%;
 
         @media @tablet {
-            padding-right: 20%;
-            width: 90%;
+            align-items: left;
+            width: 100%;
         }
+
         
 
         h1 {
             margin: 0;
             font-family: 'Poppins',;
             font-weight: 700;
-            font-size: 3.8rem;
+            font-size: 1.9rem;
             line-height: 72px;
             color: #FFFFFF;
+            width: 46%;
+            text-align: center;
             @media @tablet{
                 font-size: 2rem;
+                text-align: left;
+                width: 90%;
+                font-size: 1.5;
             }
+
+            @media @phone{
+                font-size: 1.3rem;
+            }
+            
         } // h1
 
         p {
             width: 46%;
             font-family: 'Poppins',;
             font-weight: 100;
-            font-size: 1.7rem;
+            font-size: 1.2rem;
             line-height: 36px;
             text-align: center;
             color: #FFFFFF;
@@ -81,12 +98,14 @@
             padding-bottom: 50px;
             @media @tablet {
                 width: 90%;
-                font-size: 1.5rem;
-            }
-            @media @phone{
+                line-height: 120%;
+                font-size: 1rem;
                 justify-content: right;
                 text-align: left;
-                margin-left: 15%;
+                margin-left: 4%;
+            }
+            @media @phone{
+                
             }
         } // p
 
@@ -94,7 +113,7 @@
             font-family: 'Poppins',;
             font-style: normal;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 1rem;
             line-height: 36px;
             color: #191C48;
             text-align: center;
@@ -103,13 +122,38 @@
 
     .Services {
         display: flex;
+        
         padding-top: 100px;
-        justify-content: center;
-        justify-content: space-evenly;
+        margin: 0 auto;
+        justify-content: space-around;
+        max-width: 1500px;
+        @media @tablet{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            width: 100%;
+        }
+        @media @phone {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            width: 100%;
+        }
+
 
         .mobile {
-            width: 240px;
+            width: 20%;
+            @media @tablet {
+                width: 60%;
+            }
+            
+            .mobile-img{
+                img{
+                    width:55px;
+                }
+            }
 
+            
             h5 {
                 font-family: 'Poppins',;
                 font-style: normal;
@@ -120,18 +164,25 @@
             }
 
             p {
-                width: 150px;
+                
                 font-family: 'Poppins',;
                 font-style: normal;
                 font-weight: 300;
                 font-size: 16px;
                 line-height: 24px;
                 color: #191C48;
+                @media @tablet{
+                    width: 60%;
+                    margin-bottom: 5%;
+                }
             }
         } // Mobile
 
         .trading {
-            width: 224px;
+            width: 20%;
+            @media @tablet {
+                width: 60%;
+            }
 
             h5 {
                 font-family: 'Poppins',;
@@ -149,11 +200,15 @@
                 font-size: 16px;
                 line-height: 24px;
                 color: #191C48;
+
             }
         } // trading
 
         .market {
-            width: 227px;
+            width: 20%;
+            @media @tablet {
+                width: 60%;
+            }
 
             h5 {
                 font-family: 'Poppins',;
@@ -189,13 +244,10 @@
         }
 
         a {
-            text-decoration: none;
-            color: #FFFFFF;
-            font-family: 'Poppins',;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 27px;
+            .active-btn-sm();
+            &:hover{
+                .hover-btn-sm();
+            }
         } // a
     } // sign-up
 
@@ -215,15 +267,21 @@
         justify-content: center;
         justify-content: space-evenly;
         margin-bottom: 200px;
+        @media @tablet {
+            .invisible();
+        }
 
         .review-1 {
-            width: 500px;
-            height: 200px;
+            width: 35%;
+            height: auto;
             box-sizing: border-box;
             border: 1px solid #818181;
             border-radius: 4px;
             background-color: #f1f1f1;
             padding: 10px 20px;
+            @media @tablet {
+                
+            }
 
             p {
                 font-family: 'Roboto',;
@@ -244,8 +302,8 @@
         }
 
         .review-2 {
-            width: 500px;
-            height: 200px;
+            width: 35%;
+            height: auto;
             box-sizing: border-box;
             border: 1px solid #818181;
             border-radius: 4px;
@@ -268,6 +326,37 @@
             font-size: 18px;
             line-height: 27px;
             color: #191C48
+        }
+    }
+}
+
+#reviewh3{
+    @media @tablet {
+        .invisible();
+    }
+}
+
+footer{
+    .invisible();
+    @media @tablet {
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-around;
+        background-color: @portgore;
+        .footernav{
+            width: 55%;
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                color: @white;
+                font-family: @Poppins;
+                text-decoration: none;
+                
+            
+            }
         }
     }
 }
