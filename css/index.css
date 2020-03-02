@@ -198,6 +198,10 @@ h2 {
   border: solid 1px;
   border-radius: 5px;
 }
+#home {
+  display: flex;
+  flex-direction: column;
+}
 .container {
   width: 100%;
 }
