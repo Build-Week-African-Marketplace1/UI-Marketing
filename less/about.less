@@ -1,3 +1,8 @@
+#home {
+    display: flex;
+    flex-direction: column;
+}
+
 .container {
     width: 100%;
 
@@ -16,6 +21,9 @@
             width: 110px;
             height: 54px;
             margin: 0;
+            @media @phone{
+                font-size: 2.2rem;
+            }
         } // h2
 
         .nav {
@@ -23,6 +31,14 @@
             justify-content: space-between;
             width: 100%;
             margin: 2% 1% 0% 3%;
+            @media @tablet{
+                margin-left: 2%;
+                width: 100%;
+            }
+
+            @media @phone{
+
+            }
 
             a {
                 padding: 20px;
@@ -35,4 +51,81 @@
             } // a
         } // nav
     } // header
+
+    .top-content {
+
+        h1 {
+            text-align: center;
+            font-family: 'Poppins',;
+            font-weight: 700;
+            font-size: 1.9rem;
+            line-height: 72px;
+        } // h1
+    } // top-content
+
+    .about {
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+
+        .licea {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-family: 'Poppins',;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2rem;
+                line-height: 36px;
+                color: #191C48;
+                text-align: center;
+            } // h3
+
+            img {
+                height: 500px;
+                width: auto;
+                margin-bottom: 50px;
+            }
+
+            a {
+                font-family: 'Poppins',;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.2rem;
+                color: #191C48;
+                text-align: center;
+            }
+        }
+
+        .schmidt {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-family: 'Poppins',;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 2rem;
+                line-height: 36px;
+                color: #191C48;
+                text-align: center;
+            } // h3
+
+            img {
+                height: 500px;
+                width: auto;
+                margin-bottom: 50px;
+            }
+
+            a {
+                font-family: 'Poppins',;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.2rem;
+                color: #191C48;
+                text-align: center;
+            }
+        } // schmidt
+    }
 } // container 
