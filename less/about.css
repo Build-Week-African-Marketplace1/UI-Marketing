@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+}
+.container .header {
+  display: flex;
+  align-items: center;
+  background-color: #142051;
+  width: 100%;
+}
