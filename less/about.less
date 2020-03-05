@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.container {
+.container-abt {
     width: 100%;
 
     .header {
@@ -64,68 +64,18 @@
     } // top-content
 
     .about {
-        display: flex;
-        justify-content: space-evenly;
-        justify-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
-        .licea {
-            display: flex;
-            flex-direction: column;
-
-            h3 {
-                font-family: 'Poppins',;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 2rem;
-                line-height: 36px;
-                color: #191C48;
-                text-align: center;
-            } // h3
-
-            img {
-                height: 500px;
-                width: auto;
-                margin-bottom: 50px;
-            }
-
-            a {
-                font-family: 'Poppins',;
-                text-decoration: none;
-                font-weight: bold;
-                font-size: 1.2rem;
-                color: #191C48;
-                text-align: center;
-            }
+        .abt-img{
+            width: 450px;
+            height: 450px;
+            overflow: hidden;
+            border: ridge @portgore 25px;
         }
 
-        .schmidt {
-            display: flex;
-            flex-direction: column;
 
-            h3 {
-                font-family: 'Poppins',;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 2rem;
-                line-height: 36px;
-                color: #191C48;
-                text-align: center;
-            } // h3
-
-            img {
-                height: 500px;
-                width: auto;
-                margin-bottom: 50px;
-            }
-
-            a {
-                font-family: 'Poppins',;
-                text-decoration: none;
-                font-weight: bold;
-                font-size: 1.2rem;
-                color: #191C48;
-                text-align: center;
-            }
-        } // schmidt
     }
-} // container 
+} // about 
