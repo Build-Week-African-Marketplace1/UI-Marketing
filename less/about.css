@@ -1,7 +1,7 @@
-.container {
+.container-abt {
   width: 100%;
 }
-.container .header {
+.container-abt .header {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
   width: 100%;
   max-width: 1200px;
 }
-.container .header h2 {
+.container-abt .header h2 {
   font-family: 'Poppins';
   font-weight: bold;
   color: #FE7A7C;
@@ -21,14 +21,14 @@
   margin: 0;
   padding-left: 20px;
 }
-.container .header .nav {
+.container-abt .header .nav {
   display: flex;
   justify-content: center;
   width: 100%;
   padding-left: 75%;
   margin: 2 1 0 3;
 }
-.container .header .nav a {
+.container-abt .header .nav a {
   padding: 20px;
   color: #FFFFFF;
   text-decoration: none;
@@ -37,7 +37,7 @@
   font-weight: 300;
   line-height: 27px;
 }
-.container .top-content h1 {
+.container-abt .top-content h1 {
   text-align: center;
   font-family: 'Poppins';
   font-weight: 700;
@@ -45,34 +45,34 @@
   line-height: 72px;
   color: #142051;
 }
-.container .about .UX {
+.container-abt .about .UX {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
 }
-.container .about .UX h1 {
+.container-abt .about .UX h1 {
   text-align: center;
   color: #191C48;
   font-family: 'Poppins';
   text-decoration: underline;
 }
-.container .about .UX .bom {
+.container-abt .about .UX .bom {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .UX .bom h3 {
+.container-abt .about .UX .bom h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .UX .bom img {
+.container-abt .about .UX .bom img {
   width: 300px;
   height: auto;
 }
-.container .about .UX .bom a {
+.container-abt .about .UX .bom a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -80,36 +80,36 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .about .ui {
+.container-abt .about .ui {
   padding-bottom: 50px;
 }
-.container .about .ui h1 {
+.container-abt .about .ui h1 {
   text-align: center;
   color: #191C48;
   font-family: 'Poppins';
   text-decoration: underline;
 }
-.container .about .ui .ui-members {
+.container-abt .about .ui .ui-members {
   display: flex;
   justify-content: space-evenly;
 }
-.container .about .ui .ui-members .licea {
+.container-abt .about .ui .ui-members .licea {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .ui .ui-members .licea h3 {
+.container-abt .about .ui .ui-members .licea h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .ui .ui-members .licea img {
+.container-abt .about .ui .ui-members .licea img {
   width: 300px;
   height: auto;
 }
-.container .about .ui .ui-members .licea a {
+.container-abt .about .ui .ui-members .licea a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -117,23 +117,23 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .about .ui .ui-members .schmidt {
+.container-abt .about .ui .ui-members .schmidt {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .ui .ui-members .schmidt h3 {
+.container-abt .about .ui .ui-members .schmidt h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .ui .ui-members .schmidt img {
+.container-abt .about .ui .ui-members .schmidt img {
   width: 300px;
   height: auto;
 }
-.container .about .ui .ui-members .schmidt a {
+.container-abt .about .ui .ui-members .schmidt a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -141,36 +141,36 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .about .front {
+.container-abt .about .front {
   padding-bottom: 20px;
 }
-.container .about .front h1 {
+.container-abt .about .front h1 {
   text-align: center;
   color: #191C48;
   font-family: 'Poppins';
   text-decoration: underline;
 }
-.container .about .front .front-mem {
+.container-abt .about .front .front-mem {
   display: flex;
   justify-content: space-evenly;
 }
-.container .about .front .front-mem .demetriou {
+.container-abt .about .front .front-mem .demetriou {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .front .front-mem .demetriou h3 {
+.container-abt .about .front .front-mem .demetriou h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .front .front-mem .demetriou img {
+.container-abt .about .front .front-mem .demetriou img {
   width: 300px;
   height: auto;
 }
-.container .about .front .front-mem .demetriou a {
+.container-abt .about .front .front-mem .demetriou a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -178,23 +178,23 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .about .front .front-mem .adeniji {
+.container-abt .about .front .front-mem .adeniji {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .front .front-mem .adeniji h3 {
+.container-abt .about .front .front-mem .adeniji h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .front .front-mem .adeniji img {
+.container-abt .about .front .front-mem .adeniji img {
   width: 300px;
   height: auto;
 }
-.container .about .front .front-mem .adeniji a {
+.container-abt .about .front .front-mem .adeniji a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -202,23 +202,23 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .about .front .front-mem .moore {
+.container-abt .about .front .front-mem .moore {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .front .front-mem .moore h3 {
+.container-abt .about .front .front-mem .moore h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .front .front-mem .moore img {
+.container-abt .about .front .front-mem .moore img {
   width: 300px;
   height: auto;
 }
-.container .about .front .front-mem .moore a {
+.container-abt .about .front .front-mem .moore a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -226,34 +226,34 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .about .back {
+.container-abt .about .back {
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
 }
-.container .about .back h1 {
+.container-abt .about .back h1 {
   text-align: center;
   color: #191C48;
   font-family: 'Poppins';
   text-decoration: underline;
 }
-.container .about .back .hamida {
+.container-abt .about .back .hamida {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.container .about .back .hamida h3 {
+.container-abt .about .back .hamida h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.4rem;
   color: #191C48;
 }
-.container .about .back .hamida img {
+.container-abt .about .back .hamida img {
   width: 300px;
   height: auto;
 }
-.container .about .back .hamida a {
+.container-abt .about .back .hamida a {
   color: #142051;
   text-decoration: none;
   font-family: 'Poppins';
@@ -261,7 +261,7 @@
   line-height: 20px;
   padding-top: 10px;
 }
-.container .footer {
+.container-abt .footer {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -270,12 +270,12 @@
   width: 100%;
   max-width: 1200px;
 }
-.container .footer .footernav {
+.container-abt .footer .footernav {
   width: 55%;
   display: flex;
   justify-content: space-evenly;
 }
-.container .footer .footernav a {
+.container-abt .footer .footernav a {
   color: #FFFFFF;
   font-family: 'Poppins';
   text-decoration: none;
