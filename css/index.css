@@ -152,7 +152,7 @@ h2 {
 }
 .container-abt .header .nav a {
   padding: 20px;
-  color: #FFFFFF;
+  color: white;
   text-decoration: none;
   font-family: 'Poppins';
   font-size: 0.8rem;
@@ -441,7 +441,7 @@ h2 {
   justify-content: space-evenly;
 }
 .container-abt .footer .footernav a {
-  color: #FFFFFF;
+  color: white;
   font-family: 'Poppins';
   text-decoration: none;
   font-size: 1.3rem;
