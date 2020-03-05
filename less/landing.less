@@ -9,10 +9,13 @@
     
 
     .header {
+        margin: 0 auto;
         display: flex;
         align-items: center;
+        justify-content: center;
         background-color: #142051;
         width: 100%;
+        max-width: 1200px;
 
         h2 {
             font-family: 'Poppins',;
@@ -57,7 +60,7 @@
     } // Header
 
     .sub-head {
-        background-color: #142051;
+    
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -67,6 +70,24 @@
             align-items: left;
             width: 100%;
         }
+    #sub-head-bg{
+        position: absolute;
+        z-index: -1;
+        max-width: 1200px;
+        
+        width: 100%;
+        padding: 0;
+        top: 70px;
+        @media @tablet {
+            top: 50px;
+            min-width: 60%;
+            height: auto;
+        }
+
+
+    }
+
+    
 
         
 
@@ -88,11 +109,13 @@
 
             @media @phone{
                 font-size: 1.3rem;
+                height: 50px;
             }
             
         } // h1
 
         p {
+            margin-top: 0;
             width: 46%;
             font-family: 'Poppins',;
             font-weight: 100;
@@ -116,21 +139,31 @@
         } // p
 
         h3 {
+            margin-top: 10%;
             font-family: 'Poppins',;
             font-style: normal;
             font-weight: bold;
-            font-size: 1rem;
+            font-size: 2rem;
             line-height: 36px;
             color: #191C48;
             text-align: center;
+            padding-bottom: 0;
+            @media @tablet {
+                margin-top: 20%;
+                font-size: 1.4rem;
+                
+                
+            }
         } // h3
     } //sub-head
-
+.br_hide{
+    
+}
     .Services {
         display: flex;
-        
-        padding-top: 100px;
+    
         margin: 0 auto;
+        margin-top: 10%;
         justify-content: space-around;
         max-width: 1500px;
         @media @tablet{
