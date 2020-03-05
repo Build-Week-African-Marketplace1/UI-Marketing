@@ -807,7 +807,7 @@ a {
     font-size: 1.4rem;
   }
 }
-.container .Services {
+.Services {
   display: flex;
   margin: 0 auto;
   margin-top: 10%;
@@ -815,7 +815,7 @@ a {
   max-width: 1500px;
 }
 @media (max-width: 800px) {
-  .container .Services {
+  .Services {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -823,25 +823,25 @@ a {
   }
 }
 @media (max-width: 500px) {
-  .container .Services {
+  .Services {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
 }
-.container .Services .mobile {
+.Services .mobile {
   width: 20%;
 }
 @media (max-width: 800px) {
-  .container .Services .mobile {
+  .Services .mobile {
     width: 60%;
   }
 }
-.container .Services .mobile .mobile-img img {
+.Services .mobile .mobile-img img {
   width: 65px;
 }
-.container .Services .mobile h5 {
+.Services .mobile h5 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -849,7 +849,7 @@ a {
   line-height: 27px;
   color: #191C48;
 }
-.container .Services .mobile p {
+.Services .mobile p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
@@ -858,20 +858,20 @@ a {
   color: #191C48;
 }
 @media (max-width: 800px) {
-  .container .Services .mobile p {
+  .Services .mobile p {
     width: 60%;
     margin-bottom: 5%;
   }
 }
-.container .Services .trading {
+.Services .trading {
   width: 20%;
 }
 @media (max-width: 800px) {
-  .container .Services .trading {
+  .Services .trading {
     width: 60%;
   }
 }
-.container .Services .trading h5 {
+.Services .trading h5 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -879,7 +879,7 @@ a {
   line-height: 27px;
   color: #191C48;
 }
-.container .Services .trading p {
+.Services .trading p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
@@ -887,15 +887,15 @@ a {
   line-height: 24px;
   color: #191C48;
 }
-.container .Services .market {
+.Services .market {
   width: 20%;
 }
 @media (max-width: 800px) {
-  .container .Services .market {
+  .Services .market {
     width: 60%;
   }
 }
-.container .Services .market h5 {
+.Services .market h5 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -903,7 +903,7 @@ a {
   line-height: 27px;
   color: #191C48;
 }
-.container .Services .market p {
+.Services .market p {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
@@ -911,19 +911,19 @@ a {
   line-height: 24px;
   color: #191C48;
 }
-.container .sign-up {
+.sign-up {
   display: flex;
   justify-content: center;
   margin: 125px 0 125px 0;
 }
-.container .sign-up button {
+.sign-up button {
   background-color: #191C48;
   border: none;
   padding: 15px 63px;
   color: #191C48;
   border-radius: 8px;
 }
-.container .sign-up a {
+.sign-up a {
   font-size: 1.3rem;
   font-weight: bold;
   border-radius: 8px;
@@ -933,7 +933,7 @@ a {
   width: 155px;
   height: 40px;
 }
-.container .sign-up a:hover {
+.sign-up a:hover {
   font-size: 1.3rem;
   font-weight: bold;
   border-radius: 8px;
@@ -944,7 +944,7 @@ a {
   height: 40px;
   color: red;
 }
-.container h3 {
+h3 {
   text-align: center;
   font-family: 'Poppins';
   font-style: normal;
@@ -954,18 +954,20 @@ a {
   color: #191C48;
   padding-bottom: 100px;
 }
-.container .review {
+.review {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   margin-bottom: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 @media (max-width: 800px) {
-  .container .review {
+  .review {
     display: none;
   }
 }
-.container .review .review-1 {
+.review .review-1 {
   width: 35%;
   height: auto;
   box-sizing: border-box;
@@ -974,14 +976,14 @@ a {
   background-color: #f1f1f1;
   padding: 10px 20px;
 }
-.container .review .review-1 p {
+.review .review-1 p {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
-.container .review .review-1 h6 {
+.review .review-1 h6 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -989,7 +991,7 @@ a {
   line-height: 27px;
   color: #191C48;
 }
-.container .review .review-2 {
+.review .review-2 {
   width: 35%;
   height: auto;
   box-sizing: border-box;
@@ -998,14 +1000,14 @@ a {
   background-color: #f1f1f1;
   padding: 10px 20px;
 }
-.container .review p {
+.review p {
   font-family: 'Roboto';
   font-style: italic;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
-.container .review h6 {
+.review h6 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -1026,6 +1028,8 @@ footer {
   display: flex;
   justify-content: space-around;
   background-color: #191C48;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 footer .footernav {
   width: 55%;
