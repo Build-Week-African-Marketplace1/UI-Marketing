@@ -1,6 +1,15 @@
-.container {
+.container-abt {
     width: 100%;
-    
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    @media @tablet{
+        max-width: 800px;
+    }
+    @media @phone {
+        max-width: 500px;
+    }
+
     .header {
         margin: 0 auto;
         display: flex;
@@ -53,10 +62,22 @@
     } // top-content
 
     .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
         .UX {
             display: flex;
             flex-direction: column;
             padding-bottom: 50px;
+          
+          
+            
+            @media @tablet{
+                display: flex;
+
+            }
 
             h1 {
                 text-align: center;
@@ -106,7 +127,13 @@
 
             .ui-members {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-between;
+                max-width: 950px;
+                width: 100%;
+                @media @tablet {
+                    display:flex;
+                    flex-direction: column;
+                }
                 .licea {
                     display: flex;
                     flex-direction: column;
@@ -139,6 +166,10 @@
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    margin-left: 10%;
+                    @media @tablet {
+                        margin-left:0 ;
+                    }
 
                     h3 {
                         text-align: center;
@@ -167,6 +198,11 @@
 
         .front {
             padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 1200px;
+
 
             h1 {
                 text-align: center;                
@@ -177,9 +213,16 @@
 
             .front-mem {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-between;
+                width: 100%;
+                @media @tablet {
+                    display:flex;
+                    flex-direction: column;
+                }
 
                 .demetriou {
+                    margin: 0 auto;
+                    width: 33%;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -208,6 +251,8 @@
                 } // demetriou
 
                 .adeniji{
+                    margin: 0 auto;
+                    width: 33%;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -236,6 +281,8 @@
                 } // adeniji
 
                 .moore{
+                    margin: 0 auto;
+                    width: 33%;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
